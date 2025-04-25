@@ -1,3 +1,5 @@
+Como Fazer Um Push (Adicionar tudo ou partes no github)
+
 1° cria o arquivo [echo "conteúdo do arquivo" nome_do_arquivo.extensão] / pasta [mkdir nome_da_pasta]
 
 2° Adiciona os arquivos no git status --> [git add .] - Adiciona tudo / [git add nome_do_arquivo] adiciona especificamente este arquivo
