@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en; pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício_Aula_22-04-2025</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/coruja.ico" type="image/ico">
+</head>
+<body>
+    <div class="div_fundo"> <!--Esta div é global para o fundo da página-->
+<div class="div_global">
+    <h1 style="text-align: center;">Exercício Aula 22/04/2025</h1>
+
+<!--Questão 1 - Par ou ímpar?-->
+    <div>
+        <h3>Par ou ímpar?</h3>
+        <form id="formPI">
+            <label for="number">Digite um úmero inteiro pertencente ao conjunto do números naturais:</label><br>
+            <input type="number" id="numberPI" name="numberPI" placeholder="Digite um número aqui."><br>
+            <button type="submit">Verificar</button><br>
+            <p id="saidaPI" class="p_Saida">-</p>
+            <script src="Par_Ou_Impar.js"></script>
+        </form><hr>
+    </div>
+
+<!--Questão 2 - Soma até N...-->
+    <div>
+        <h3>Some até N...valores</h3>    
+        <form id="formSoma">
+            <label for="number">Digite um número inteiro que indique a posição que prentende somá-lo:</label><br>
+            <input type="number" id="numberSoma" name="numberSoma" placeholder="Digite um número aqui."><br>    
+            <button type="submit">Verificar</button>
+            <p id="saidaSoma" class="p_Saida">-</p>
+            <script src="Soma_Ate_N.js"></script><br>
+        </form><hr>
+    </div>
+
+<!--Questão 3 - Carrossel de imagens-->
+    <div>
+        <h3>Carrossel de imagens</h3>
+        <!--Aqui temos uma sequência de três imagens com um botão de avançar e um para retornar-->
+        <div class="classe_Div_bt">
+            <img id="imagem" src="/images/" alt="Tartaruga marinha" style="width:950px;height:600px;"><br>
+            <button id="btAnterior" type="submit" >Anterior</button>
+            <button id="btAvancar" type="submit" >Próximo</button>
+        </div>
+        <script src="Carrossel_Imagens.js"></script>
+        <hr>
+    </div>
+
+<!--Questão 4 - Tabuada do número...x-->
+    <div>
+        <h3>Tabuada de multiplicação de um número 'a'</h3>
+        <label>Fórmula da multiplicação: <strong>a x b = c</strong></label><br><br>    
+        <form id="formTabuadaTabela">
+            <label for="number">Digite um número inteiro que pretende ver a tabuada:</label><br>
+
+            <input type="number" id="numberTabuadaTabela" name="numberTabuadaTabela" placeholder="Digite um número aqui."><br>    
+            <button type="submit">Exibir resultado</button>
+            <table id="saidaTabela"><tr><th>Multiplicação</th><th>Resultado</th></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                <tr><td>-</td><td>-</td></tr>
+                </table>
+            <script src="Tabuada.js"></script>
+        </form><hr>
+    </div>
+
+<!--Questão 5 - Verificar maioridade-->
+    <div>
+        <h3>Verificar maioridade, você é maior de 18 anos?</h3>
+        <form id="formMaioridade">
+            <label for="number">Digite a sua idade:</label><br>
+            <input type="number" id="numberMaioridade" name="numberMaioridade" placeholder="Digite uma idade aqui."><br>    
+            <button type="submit">Verificar</button>
+            <p id="saidaMaioridade" class="p_Saida">-</p>
+            <script src="Verificar_MaiorIdade.js"></script><br>
+        </form><hr>
+    </div>
+    <br><br>
+    <p style="text-align: center;">Produced by Eric Gravatá Silva<br>RA: 722320593<br>Curso: Análise e Desenvolvimento de Sistemas<br>Universidade Ages</p>
+    <br><br>
+</div>
+</div>
+
+</body>
+</html>

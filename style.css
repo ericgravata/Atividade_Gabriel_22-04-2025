@@ -1,0 +1,110 @@
+.div_fundo {
+    background-color: rgb(210, 238, 255);
+    margin: auto;
+    /*Ajusta a div com a largura da tela*/
+    width: 100%;
+    display: ruby-base-container;
+    /*Coloca a imagem no fundo inteiro da página*/
+    background-image: url('images/fundo-agua.jpg');
+    background-size: cover;
+}
+.div_global {
+    background-color: rgb(210, 238, 255);
+    margin: auto;
+    padding: 10px;
+}
+
+div {
+    margin: auto;
+    width: 75%;
+}
+
+.classe_Div_bt {
+    /*Esta classe alinha todos os botões lado a lado e centralizado*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*Adiciona um espaço igual entre cada botão*/
+    gap: 10px;
+    /*Adiciona um espaço entre o botão e a borda da div*/
+    padding: 10px;
+    }
+
+p, h1, h2, h3, h4, h5, h6, td, form, label, input, button {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p_Saida {
+    width: 100%;
+    border:2px solid DodgerBlue;
+    padding: 20px; width: 300px;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/*Centraliza a imagem na tela*/
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 2px solid rgb(30, 144, 255);
+}
+
+th, td {
+    background-color: #f9f9f9;
+    padding: 8px;
+    border: 1px solid rgb(30, 144, 255);
+    border-radius: 10px;
+}
+
+table {
+
+    width: 50px;
+    margin: 5px 0 5px 0;
+}
+
+.botao {
+/* Alinha o botão no centro */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: DodgerBlue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /*Adiciona um espaço da margem esquerda para cada na mesma linha*/
+    margin-left: 250px;
+    margin-right: 25px;
+
+}
+
+button {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: RoyalBlue;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
